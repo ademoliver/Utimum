@@ -46,7 +46,7 @@ chatOpenButton.addEventListener('click', (e) => {
 
 const getUserInput = () => {
   const inputValue = document.querySelector('.bottom-bar_input').value;
-  const newText = `<b>Vous</b> : <br> ${inputValue}`;
+  const newText = `<b>Voce</b> : <br> ${inputValue}`;
   return newText;
 };
 
