@@ -1,3 +1,26 @@
+
+
+#nossotrabalho{
+	
+	
+	background-color:black;
+	color:white;
+	width: 10;
+	display: inline-block;
+}
+#esquerda{
+	font:white;
+	float:left;
+	font-family: verdana;
+	font-size:10px;
+}
+#direita{
+	font:white;
+	float:right;
+	font-family: verdana;
+}
+
+/* pra baixo esta o estilo do chatbox */
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
