@@ -1,23 +1,25 @@
 
-
-#nossotrabalho{
+/* eu que fiz*/
+.nossotrabalho{
 	
 	
 	background-color:black;
 	color:white;
 	width: 10;
-	display: inline-block;
-}
-#esquerda{
+	display: flex;
+   flex-direction: row; 
 	font:white;
-	float:left;
-	font-family: verdana;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.esquerda{
+	
+	
+	
 	font-size:10px;
 }
-#direita{
-	font:white;
-	float:right;
-	font-family: verdana;
+.direita{
+	
+	font-size:20px;
 }
 
 /* pra baixo esta o estilo do chatbox */
