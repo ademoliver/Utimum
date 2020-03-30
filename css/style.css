@@ -3,13 +3,13 @@
 .nossotrabalho {
 	
 	
-	background:black;
+	background-color:black;
 	color:white;
 	
 	display: flex;
    flex-direction: row; 
 	font:white;
-	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 .esquerda{
 	
