@@ -1,8 +1,85 @@
+/* testo do css style 1, para o header...*/
+
+body,
+ul,
+li,
+p {
+ 
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
+		
+}
+
+body {
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.header {
+  background: #1d1e20;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 10px;
+
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  
+}
+
+
+
 
 /* eu que fiz*/
+
+
+	
+.corpo{
+	
+	background-image: url("../img/img3.jpg");
+    background-repeat: no-repeat;
+	background-attachment :inherit;
+	overflow:hidden; 
+    background-size:80%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+	
+	
+	
+}
 .nossotrabalho{
 	
-	
+
+   
 	
 	color:white;
 	width: 10;
@@ -12,17 +89,17 @@
 	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 .esquerda{
-	background-color:black;
+	background-color:none;
 	margin-top:0px;
 	
 	font-size:10px;
 }
 .direita{
-	background-color:gray;
+	background-color:none;
 	font-size:20px;
 }
 .divintermediaria{
-	background-color:gray;
+	background-color:none;
 	width:100px;
 }
 .espaco{
@@ -334,8 +411,8 @@ html {
 \*----------------------------------------------*/
 
 @media screen and (min-width:650px) {
-  html {
-    background-color: rgb(228, 191, 69);
+  html {  /* defin a cor de fundo do site */
+    background-color: black;
   }
 
   .chatbox {
