@@ -9,10 +9,13 @@ p {
   font-size: 1.2rem;
   font-family: Arial;
 		
+ 
 }
 
 body {
-  margin-bottom: 100px;
+	  
+  align-items: center;
+	
 }
 
 a {
@@ -59,44 +62,115 @@ img {
 
 /* eu que fiz*/
 
+.grid-container {
+  
+}
 
+.grid-item {
+  
+}
+
+.top{
+	display: inline-grid;
+  grid-template-columns: auto auto auto;
+ 
+  padding: 10px;
+	
+}
 	
 .corpo{
-	
-	background-image: url("../img/img3.jpg");
+	display: flex;
+ 	flex-wrap: wrap;
+	width:980px;
+	align-items: center;
+	background-size: cover;
     background-repeat: no-repeat;
-	background-attachment :inherit;
+	
+  	
 	overflow:hidden; 
-    background-size:80%;
     bottom: 0;
     color: black;
-    left: 0;
-    overflow: auto;
+  
+	align: right;
 	
 	
 	
 }
-.nossotrabalho{
+/*pra se precisar
+background-image: url("../img/img3.jpg");
+	background-repeat: no-repeat;*/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+.q0a{
 	
-
+	
+ 
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+	
+background-color: purple;
    
-	
 	color:white;
 	width: 10;
 	display: flex;
    flex-direction: row; 
-	font:white;
+	
 	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
-.esquerda{
+.q0b{
+	
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+background-color: none;
+   
+	color:white;
+	width: 10;
+	display: flex;
+   flex-direction: row; 
+	
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.q1{
 	background-color:none;
 	margin-top:0px;
 	
 	font-size:10px;
+	
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
-.direita{
+.q2 li{
 	background-color:none;
+	font-size:50px;
+	
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.q3a li{
+	background-color:orange;
 	font-size:20px;
+	
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.q3b li{
+	background-color:blue;
+	font-size:20px;
+	
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.q3c li{
+	background-color:red;
+	font-size:20px;
+	
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 .divintermediaria{
 	background-color:none;
