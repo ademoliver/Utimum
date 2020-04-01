@@ -32,7 +32,7 @@ img {
   max-width: 100%;
   display: block;
 }
-
+/* cabecalho*/
 .header {
   background: #1d1e20;
   display: flex;
@@ -62,23 +62,15 @@ img {
 
 /* eu que fiz*/
 
-.grid-container {
-  
-}
 
-.grid-item {
-  
-}
 
 .top{
-	display: inline-grid;
-  grid-template-columns: auto auto auto;
- 
-  padding: 10px;
+  margin: 0 auto;
 	
 }
 	
 .corpo{
+	  margin: 0 auto;
 	display: flex;
  	flex-wrap: wrap;
 	width:980px;
@@ -101,26 +93,18 @@ background-image: url("../img/img3.jpg");
 	background-repeat: no-repeat;*/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 .q0a{
 	
-	
- 
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-	
 background-color: purple;
    
 	color:white;
 	width: 10;
 	display: flex;
+	wrap:wrap;
    flex-direction: row; 
 	
 	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 .q0b{
 	
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
 background-color: none;
    
 	color:white;
@@ -135,50 +119,41 @@ background-color: none;
 	margin-top:0px;
 	
 	font-size:10px;
-	
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
 }
 .q2 li{
 	background-color:none;
 	font-size:50px;
-	
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
 }
 .q3a li{
+	padding:40%;
 	background-color:orange;
 	font-size:20px;
-	
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+	height:200px;
+	width:200px;
 }
 .q3b li{
+	padding:40%;
 	background-color:blue;
 	font-size:20px;
+		height:200px;
+	width:200px;
 	
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
 }
 .q3c li{
+	padding:30%;
 	background-color:red;
 	font-size:20px;
-	
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+		height:200px;
+	width:200px;
 }
 .divintermediaria{
 	background-color:none;
 	width:100px;
 }
 .espaco{
-	background-color:none;;
-	width: 100px;
+	background-color:none;
+	color:white;
+	width: 300px;
 }
 /* pra baixo esta o estilo do chatbox */
 * {
@@ -210,9 +185,7 @@ html {
 
 
 
-/*----------------------------------------------*\
-  Barre infos et action fermeture/réduction 
-\*----------------------------------------------*/
+/* codigo do chatbox*/
 
 .top-bar {
   width: 100%;
