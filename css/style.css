@@ -40,10 +40,12 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+
 }
 
 .menu {
   display: flex;
+	
 }
 
 .menu li {
@@ -655,4 +657,14 @@ html {
   .user-is-writing_dots {
     display: none;
   }
+
+	
+footer {
+  background: #1d1e20;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position:absolute;
+  
 }
+
